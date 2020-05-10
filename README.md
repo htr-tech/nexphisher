@@ -24,7 +24,9 @@
 * ```apt install git -y```
 * ```git clone https://github.com/htr-tech/nexphisher```
 * ```cd nexphisher```
-* ```bash setup```
+### SETUP ```bash setup```
+### SETUP (TERMUX) ```bash tmux_setup```
+
 ### Run : `bash nexphisher`
 ### Or ; Use Single Command
 ```
