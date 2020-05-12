@@ -44,7 +44,8 @@ apt update ; apt install git -y ; git clone git://github.com/htr-tech/nexphisher
 #### [+] Easy for Beginners !
 
 ## Credits :
-#### > Zphisher (https://github.com/htr-tech/nexphisher)
+#### > Zphisher (https://github.com/htr-tech/zphisher)
+#### > The Linux Choice (https://github.com/thelinuxchoice)
 
 ## Tunelling Options :
 #### > Localhost (127.0.0.1)
