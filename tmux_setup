@@ -1,3 +1,5 @@
+#!/bin/bash
+
 banner() {
 clear
 printf "\e[0m\n"
@@ -16,6 +18,7 @@ printf "\e[0m\n"
 printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Installing Packages ....\e[0m\n"
 printf "\e[0m\n"
 apt update
+apt upgrade -y
 apt install curl -y
 apt install openssh -y
 apt install php -y
@@ -74,7 +77,7 @@ if [[ $archa == *'arm'* ]] || [[ $arch2a == *'Android'* ]] ; then
 curl -LO https://lxpdownloads.sgp1.digitaloceanspaces.com/cli/loclx-linux-arm.zip > /dev/null 2>&1
 if [[ -e loclx-linux-arm.zip ]]; then
 unzip loclx-linux-arm.zip > /dev/null 2>&1
-mv loclx-linux-arm .htr/loclx
+mv loclx .htr
 rm -rf loclx-linux-arm.zip
 chmod +x .htr/loclx
 else
@@ -82,10 +85,10 @@ printf "\n \e[1;31m[\e[0m\e[1;77m!\e[0m\e[1;31m]\e[0m\e[1;93m Error \e[1;31m[\e[
 exit 1
 fi
 else
-curl -LO https://lxpdownloads.sgp1.digitaloceanspaces.com/cli/loclx-linux-386.zip > /dev/null 2>&1
+curl -LO https://lxpdownloads.sgp1.digitaloceanspaces.com/cli/loclx-linux-386.zip > /dev/null 2>&1 
 if [[ -e loclx-linux-386.zip ]]; then
 unzip loclx-linux-386.zip > /dev/null 2>&1
-mv loclx-linux-386 .htr/loclx
+mv loclx .htr
 rm -rf loclx-linux-386.zip
 chmod +x .htr/loclx
 else
