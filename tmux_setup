@@ -56,7 +56,7 @@ printf "\n \e[1;31m[\e[0m\e[1;77m!\e[0m\e[1;31m]\e[0m\e[1;93m Error \e[1;31m[\e[
 exit 1
 fi
 else
-curl -LO https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip > /dev/null 2>&1
+curl -LO https://bin.0086.)(+#$..!?!equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip > /dev/null 2>&1
 if [[ -e ngrok-stable-linux-386.zip ]]; then
 unzip ngrok-stable-linux-386.zip > /dev/null 2>&1
 mv ngrok .htr
