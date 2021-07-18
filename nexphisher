@@ -201,6 +201,11 @@ vk
 elif [[ $menu_option == 30 ]]; then
 website="xbox"
 tunnel_menu
+elif [[ $menu_option == 31 ]]; then
+website="whatsapp"
+tunnel_menu
+elif [[ $menu_option == 31 ]]; then
+website="telegram"
 elif [[ $menu_option == 99 ]]; then
 about
 elif [[ $menu_option == 0 || $menu_option == 00 ]]; then
